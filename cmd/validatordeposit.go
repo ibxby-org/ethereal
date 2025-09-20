@@ -70,7 +70,7 @@ var validatorDepositKnownContracts = []*validatorDepositContract{
 	{
 		network:     "Mainnet",
 		chainID:     big.NewInt(1),
-		address:     util.MustDecodeHexString("0x00000000219ab540356cBB839Cbe05303d7705Fa"),
+		address:     util.MustDecodeHexString("0x0a502f846F6dc2e3D4d8C595B18b3AF44657B1bD"),
 		forkVersion: []byte{0x00, 0x00, 0x00, 0x00},
 		minVersion:  3,
 		maxVersion:  4,
@@ -78,7 +78,7 @@ var validatorDepositKnownContracts = []*validatorDepositContract{
 	{
 		network:     "Sepolia",
 		chainID:     big.NewInt(11155111),
-		address:     util.MustDecodeHexString("0x7f02C3E3c98b133055B8B348B2Ac625669Ed295D"),
+		address:     util.MustDecodeHexString("0x0a502f846F6dc2e3D4d8C595B18b3AF44657B1bD"),
 		forkVersion: []byte{0x90, 0x00, 0x00, 0x69},
 		minVersion:  3,
 		maxVersion:  4,
@@ -86,7 +86,7 @@ var validatorDepositKnownContracts = []*validatorDepositContract{
 	{
 		network:     "Holesky",
 		chainID:     big.NewInt(17000),
-		address:     util.MustDecodeHexString("0x4242424242424242424242424242424242424242"),
+		address:     util.MustDecodeHexString("0x0a502f846F6dc2e3D4d8C595B18b3AF44657B1bD),
 		forkVersion: []byte{0x01, 0x01, 0x70, 0x00},
 		minVersion:  3,
 		maxVersion:  4,
@@ -94,7 +94,7 @@ var validatorDepositKnownContracts = []*validatorDepositContract{
 	{
 		network:     "Hoodi",
 		chainID:     big.NewInt(560048),
-		address:     util.MustDecodeHexString("0x00000000219ab540356cBB839Cbe05303d7705Fa"),
+		address:     util.MustDecodeHexString("0x0a502f846F6dc2e3D4d8C595B18b3AF44657B1bD"),
 		forkVersion: []byte{0x10, 0x00, 0x09, 0x10},
 		minVersion:  3,
 		maxVersion:  4,
