@@ -70,7 +70,7 @@ var validatorDepositKnownContracts = []*validatorDepositContract{
 	{
 		network:     "Mainnet",
 		chainID:     big.NewInt(1),
-		address:     util.MustDecodeHexString("0x00000000219ab540356cBB839Cbe05303d7705Fa"),
+		address:     util.MustDecodeHexString("0xe67db29de40268fb3bcf5b823d512565b406ab98"),
 		forkVersion: []byte{0x00, 0x00, 0x00, 0x00},
 		minVersion:  3,
 		maxVersion:  4,
